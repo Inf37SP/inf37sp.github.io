@@ -1,0 +1,85 @@
+
+       
+       body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            transition: background-color 0.3s, color 0.3s;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #24252e; /* Color oscuro estilo GitHub */
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            padding-top: 1px;
+            padding-bottom: 10%;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .pfp-git {
+            border-radius: 100px;
+            float: right;
+            margin-right: 20px;
+            margin-top: -75px;
+        }
+
+        .custom-tab {
+            background: linear-gradient(180deg, #0d3b66 0%, #001f3f 100%); /* Fondo degradado */
+            border: 2px solid #10042c; /* Borde exterior */
+            padding: 10px 0;
+            width: 100%;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .custom-tab ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .custom-tab a {
+            color: #b8c0ff;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .custom-tab a:hover {
+            color: #f4f7f6;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);;
+        }
+
+        .color-theme {
+            font-weight: bold;
+        }
+
+        body.blackmode {
+        background-color: #18191f;
+        color: #333;
+        }
+
+        .border {
+            border: 2px solid #000000; 
+            border-radius: 8px;
+        }
+
+        .guides-text {
+            font-family: 'Courier New', Courier, monospace;
+        /*    font-size: ;  */
+            
+            
+        }
